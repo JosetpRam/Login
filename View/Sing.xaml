@@ -9,19 +9,19 @@
       Title="Sing">
 
     <Grid Background="White" Margin="0,0,207,-16">
-        <!-- Correo -->
+        
         <TextBlock Text="Correo electrónico:" Margin="52,105,331,345" FontFamily="Arial Black"/>
         <TextBox x:Name="txtcorreo" 
                 FontSize="14"
                 Margin="53,126,363,305"/>
 
-        <!-- Usuario -->
+       
         <TextBlock Text="Nombre de usuario:" Margin="52,176,331,274" FontFamily="Arial Black"/>
         <TextBox x:Name="txtnombre" 
                 FontSize="14"
                 Margin="52,197,363,234"/>
 
-        <!-- Contraseña -->
+        
         <TextBlock Text="Contraseña:" Margin="329,105,54,345" FontFamily="Arial Black"/>
         <PasswordBox x:Name="txtcontraseña" 
                 FontSize="14"
