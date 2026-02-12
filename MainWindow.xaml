@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnlogin" Content="Login" HorizontalAlignment="Left" Margin="62,68,0,0" VerticalAlignment="Top" Height="65" Width="81" Command="{Binding LoginCommand}"/>
-        <Button x:Name="btnagregar" Content="Agregar Usuarios" HorizontalAlignment="Left" Margin="62,217,0,0" VerticalAlignment="Top" Height="50" Width="109"/>
+        <Button x:Name="btnlogin" Content="Login" HorizontalAlignment="Left" Margin="62,68,0,0" VerticalAlignment="Top" Height="80" Width="148" Command="{Binding LoginCommand}"/>
+        <Button x:Name="btnagregar" Content="Agregar Usuarios" HorizontalAlignment="Left" Margin="62,217,0,0" VerticalAlignment="Top" Height="70" Width="170"/>
 
     </Grid>
 </Window>

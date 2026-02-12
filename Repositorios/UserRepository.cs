@@ -32,9 +32,14 @@ namespace Login.Repositorios
             var usuarios = ObtenerUsuarios();
             var user = usuarios.FirstOrDefault(a => a.UserName == username && a.Password == password);
             return user != null ? true : false;
-        } 
+        }
 
-                public List<User> ObtenerUsuarios()
+        public void Login(object userName, object password)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<User> ObtenerUsuarios()
                 {
                     if (!File.Exists(_path))
                     {
